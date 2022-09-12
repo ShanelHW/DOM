@@ -17,6 +17,7 @@ console.log(second)
  
 /* Get the span element using getElementsByTagname: */
 const span = document.getElementsByTagName('span')
+console.log(span)
 
 /* Add a span anywhere, and re-run the last piece of code. What's different? */
 //a span was added
