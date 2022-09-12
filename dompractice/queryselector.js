@@ -19,8 +19,8 @@ const spanAll = document.querySelectorAll('span');
 console.log(spanAll);
 
 // Select only "a" tags *directly inside* of a div (no grandchildren).
-const aChild = document.querySelector('a')
-console.log(aChild)
+const atag = document.querySelectorAll('div>a')
+console.log(atag)
 // Select all elements that contain a "data-target" attribute
 const targets = document.querySelectorAll('[data-target]')
 console.log(targets)
