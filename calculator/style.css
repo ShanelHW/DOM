@@ -1,0 +1,9 @@
+btn < .numberpanel{
+    width : "5px";
+    height : "5px";
+    display : "flex";
+    flex-wrap : "wrap";
+    display : "flex";
+    border-style : "solid";
+    border-color : "#ffffff";
+}

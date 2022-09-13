@@ -1,0 +1,10 @@
+body{
+    background-color:darksalmon;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    color: darksalmon;
+
+}

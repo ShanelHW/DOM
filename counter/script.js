@@ -31,6 +31,10 @@ let divideBy5 = () => {
     total.textContent = Number(total.textContent) / 5;
     window.alert('division successful')
 }
+let clear = () => {
+    total.textContent = 0;
+    window.alert('cleared')
+}
 
 //3. Attach Functions to Buttons
 
@@ -51,3 +55,6 @@ mul5Btn.addEventListener('click', multiplyBy5)
 
 const div5Btn = document.getElementById('div-5')
 div5Btn.addEventListener('click', divideBy5)
+
+const clearBtn = document.getElementById('clear')
+clearBtn.addEventListener('click', clear)
