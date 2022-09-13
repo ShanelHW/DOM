@@ -55,6 +55,6 @@ mul5Btn.addEventListener('click', multiplyBy5)
 
 const div5Btn = document.getElementById('div-5')
 div5Btn.addEventListener('click', divideBy5)
-
+                                               
 const clearBtn = document.getElementById('clear')
 clearBtn.addEventListener('click', clear)
