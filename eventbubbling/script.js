@@ -7,15 +7,15 @@ const createli = () =>{
     li.addEventListener('click', () => console.log('New Li'))
     return li;
 }
-li.addEventListener('click', function(e){
-    console.dir(e);
-    console.log(e.target);
-    e.stopPropagation();
-})
+// li.addEventListener('click', function(e){
+//     console.dir(e);
+//     console.log(e.target);
+//     e.stopPropagation();
+// })
 
-ul.addEventListener('click', function (e) {
-    console.log(e.target);
-})
+// ul.addEventListener('click', function (e) {
+//     console.log(e.target);
+// })
 
 body.addEventListener('click', function (e) {
     console.log(e.target);
