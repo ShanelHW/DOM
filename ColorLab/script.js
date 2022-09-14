@@ -19,22 +19,22 @@ const COLORS_ARRAY = [
 // ===== CHALLENGE =====
 // 1. Create A Function (generate)
 // Function should get a random color from the COLORS_ARRAY
-const getRandom = () => COLORS_ARRAY[(Math.floor(Math.random() * 12))]
+// color and color btn
+const getRandom = () => COLORS_ARRAY[(Math.floor(Math.random() * COLORS_ARRAY.length))]
 // Create a li element
 
 const colorMe = () =>{
-    
-   const li = document.createElement('li')
-    //li.addEventListener('click', () => console.log('New Li'))
+    const li = document.createElement('li')
     li.style.backgroundColor = getRandom();
-    // Append the li to the ul
+    
 ul.appendChild(li)
-console.log(li);
+//console.log(li);
 }
 colorGenBtn.addEventListener('click', colorMe());
 
-// Should remove all li children from the ul. 
+// reset and reset btn
 const reset = () => {
+    ul.remove(li)
     li.style.backgroundColor = 'white';
 }
 resetBtn.addEventListener('click', reset());
